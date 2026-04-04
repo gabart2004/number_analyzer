@@ -58,4 +58,14 @@ print(f"Média entre os ímpares: {media_impares:.2f}")
 total_numeros = pares + impares
 media_geral = soma_total/total_numeros
 
-print(f"\nMédia entre todos os números: {media_geral:.2f}")
+#MÉDIA DE TODOS OS NÚMEROS
+
+print(f"\nMédia entre todos os números: {media_geral:.2f}\n")
+
+#PORCENTAGEM DE PARES E ÍMPARES
+
+porcentagem_pares = pares/total_numeros
+porcentagem_impares = impares/total_numeros
+
+print(f"Porcentagem de números pares: {porcentagem_pares:.2f}%")
+print(f"Porcentagem de números ímpares: {porcentagem_impares:.2f}%")
