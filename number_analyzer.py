@@ -46,11 +46,16 @@ if pares> 0:
 	media_pares = soma_pares/pares
 else:
 	media_pares = 0
-print(f"\nMédia entre os pares: {media_pares}")
+print(f"\nMédia entre os pares: {media_pares:.2f}")
 
 if impares > 0:
 	media_impares = soma_impares/impares
 else:
 	media_impares = 0
 
-print(f"Média entre os ímpares: {media_impares}")
+print(f"Média entre os ímpares: {media_impares:.2f}")
+
+total_numeros = pares + impares
+media_geral = soma_total/total_numeros
+
+print(f"\nMédia entre todos os números: {media_geral:.2f}")
